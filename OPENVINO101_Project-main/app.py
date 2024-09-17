@@ -57,7 +57,7 @@ if source_radio == "IMAGE":
         st.image(uploaded_image)
 
     else:
-        st.image("assets/sample_image.jpg")
+        st.image("OPENVINO101_Project-main/assets/sample_image.jpg")
         st.write("Click on 'Browse Files' in the sidebar to run inference on an image.")
 
 if source_radio == "VIDEO":
@@ -78,7 +78,7 @@ if source_radio == "VIDEO":
             play_video(temporary_location)
 
     else:
-        st.video("assets/sample_video.mp4")
+        st.video("OPENVINO101_Project-main/assets/sample_video.mp4")
         st.write("Click on 'Browse Files' in the sidebar to run inference on a video.")
 
 if source_radio == "WEBCAM":
